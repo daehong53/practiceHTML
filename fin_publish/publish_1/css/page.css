@@ -3,11 +3,9 @@
         content: ''; display: block; visibility: hidden;
         clear: both;
     }
-    
     body > figure img{
         float: left; max-width: 235px; width: 25%;
-    }
-    
+    }    
     body > figure figcaption{
         margin-left: 10%; width: 65%; float: left;
     }
