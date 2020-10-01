@@ -207,8 +207,10 @@
     section.contactus form fieldset{ 
         width: 50%;
     }
+    
     section.contactus form fieldset input{
         display: block;
     }
+    
     section.contactus form fieldset input
 }
