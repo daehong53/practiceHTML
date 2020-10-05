@@ -32,6 +32,7 @@ function whileContinue(){
     }
     document.write("최종 i = "+ i + "<br>"); //? 최종결과만 출력.
 }
+
 //* exp.3 while Break
 function whileBreak(){
     var i = 1;
