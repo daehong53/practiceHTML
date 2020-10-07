@@ -71,3 +71,34 @@ function answer5(){
         document.write((11-1)+'<br>');
     }
 }
+//*exp.6 역반복 배열
+
+function reverseFavorFluit(){
+    var array = ['포도','사과','바나나','망고']; //?4개의 배열 선언후
+
+    for (var i = array.length - 1; i >=0; i--){ //?i 변수는 배열의 갯수 -1 (4-1 = 3) 로 선언, 그 변수가 0보다 크거나 같을때 까지 (3>=0 ----> 3,2,1,0) 실행 .
+        alert(array[i]); //?그래서 3,2,1,0 순으로 출력. 이것을 역반복
+    }
+    
+}
+
+// *exp.7 continue문
+function forContinue(){
+    for (var i = 0; i <= 10; i++){
+        continue; //? 위 조건이 참일 지라도 continue가 존재 하면, continue 이하 구문은 실행 되지 않는다.
+        document.write(i+'<br>'); //?vscode 에서는 불투명하게 시각화 해서 보여준다.
+    }
+    document.write('최종 i = ' + i + '<br>'); //? 최종 적으로 변경된 i 의 수치(11)만 출력된다.
+}
+
+// * exp.8 continue활용
+function runContinue(){
+    var output = 0;
+    for (var i = 1; i <= 10; i++){
+        if (i % 2 == 1){
+            continue;
+        }
+        output += i;
+        alert(output);
+    }
+}
