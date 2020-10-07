@@ -102,3 +102,20 @@ function runContinue(){
         alert(output);
     }
 }
+// *exp.9 break문
+function forBreak(){
+    for (var i = 0; i <= 10; i++){
+        break; //? 
+        document.write(i+'<br>'); //?
+    }
+    document.write('최종 i = ' + i + '<br>'); //? 
+}
+// *exp.10 break 활용
+function runBreak(){
+    for (var i = 0; true; i++){
+        alert(i + '번째 반복문');
+        if(!confirm('계속할래?')){
+            break;
+        }
+    }
+}
