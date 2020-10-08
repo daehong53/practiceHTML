@@ -119,3 +119,31 @@ function runBreak(){
         }
     }
 }
+// ! 다중 for
+
+// *exp.1 반절피라미드
+
+function halfPyramid(){
+    var star = '';
+    for (var i = 1; i <= 10; i++){ //?
+        for (var j = 0; j<i; j++){ //?
+            star += '*'; //?
+        }
+        star += '<br>';//?  
+    }
+    document.write(star);//?
+}
+
+// *exp.2 역반절 피라미드
+
+function reverseHalfPyramid(){
+    var star = '';
+    for (var i = 10; i >= 1; i--){ //?
+        for (var j = 0; j < i; j++){ //?
+            star += '*';
+        }
+        star += '<br>'; //?
+    }
+    document.write(star);
+}
+
