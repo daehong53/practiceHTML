@@ -72,6 +72,7 @@ a{
     /* header > div nav ul li:not(:first-child){
         margin-left: 2%;
     } */
+    
     header > div nav ul li a{
         font-size: 14px; display: block;
         padding: 10px 0;/* line-height: 90px; */
