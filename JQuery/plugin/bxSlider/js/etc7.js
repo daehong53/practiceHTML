@@ -44,8 +44,6 @@ function moveStop(){
     timerID = 0;
 }
 
-
-
 $(document).ready(function(){
     var $circle = $("#circle");
     var runStep = 10;
