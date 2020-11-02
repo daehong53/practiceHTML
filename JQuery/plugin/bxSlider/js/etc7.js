@@ -62,7 +62,7 @@ function startMove($circle, runStep, xpos, railWidth, timerID){
                     $circle.css({
                         left: xpos
                     });
-    
+            
                     if(xpos > railWidth || xpos < 0){
                         runStep *= -1;
                     }
