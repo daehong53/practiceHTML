@@ -54,6 +54,7 @@ $(document).ready(function(){
     startMove($circle, runStep, xpos, railWidth, timerID);
 });
 
+
 function startMove($circle, runStep, xpos, railWidth, timerID){
     $("#btn_start").click(function(){
         timerID = setInterval(function(){
